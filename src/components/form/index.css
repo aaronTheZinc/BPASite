@@ -1,0 +1,51 @@
+.fields  {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    outline-width: 0px;
+    text-align: center;
+    border-width: 4px;
+    border-color: black;
+
+
+}
+input {
+text-align: center
+}
+@font-face {
+    font-family: Header;
+    src: url('../fonts/FredokaOne-Regular.ttf');
+    font-size: 300pc;
+}
+.Contact {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    outline-width: 0px;
+    text-align: center;
+    border-width: 4px;
+    border-color: black;
+    font-family: Header;
+}
+.formContainer {
+    display: block;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.submitBtn {
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    outline: none;
+    color: white;
+    border-width: 0pc;
+    box-shadow: -1px 2px 30px 5px rgba(0,0,0,0.39);
+}
+
+.fields {
+    font-family: Header;
+    font-weight: 200;
+}
